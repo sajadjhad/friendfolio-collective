@@ -2,10 +2,10 @@
 import React, { useRef, useState } from 'react';
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { Github, Link, Mail, Twitter } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 interface SocialLink {
-  type: 'github' | 'twitter' | 'website' | 'email';
+  type: 'instagram';
   url: string;
 }
 
@@ -28,18 +28,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({
   const cardRef = useRef<HTMLDivElement>(null);
 
   const getSocialIcon = (type: string) => {
-    switch (type) {
-      case 'github':
-        return <Github className="w-4 h-4" />;
-      case 'twitter':
-        return <Twitter className="w-4 h-4" />;
-      case 'website':
-        return <Link className="w-4 h-4" />;
-      case 'email':
-        return <Mail className="w-4 h-4" />;
-      default:
-        return <Link className="w-4 h-4" />;
-    }
+    return <Instagram className="w-4 h-4" />;
   };
 
   return (
@@ -80,7 +69,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-neutral-600 hover:text-black hover:bg-neutral-100 rounded-full transition-colors"
-                aria-label={`${link.type} link`}
+                aria-label={`Instagram link`}
               >
                 {getSocialIcon(link.type)}
               </a>

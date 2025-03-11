@@ -57,12 +57,6 @@ const Hero = () => {
         >
           Team leave it to God
         </h1>
-        <p 
-          ref={subHeadingRef}
-          className="transition-all duration-700 ease-out text-lg md:text-xl max-w-2xl mx-auto mb-8 text-neutral-600 text-balance"
-        >
-          فريق من المحترفين المتحمسين يجلبون وجهات نظرهم الفريدة وخبراتهم لإنشاء شيء استثنائي.
-        </p>
         <div 
           ref={buttonRef}
           className="transition-all duration-700 ease-out"
