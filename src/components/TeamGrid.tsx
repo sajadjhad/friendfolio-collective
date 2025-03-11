@@ -5,13 +5,13 @@ import TeamMember, { TeamMemberProps } from './TeamMember';
 const TeamGrid = () => {
   const sectionRef = useRef<HTMLElement>(null);
   
-  // Team member data
+  // Team member data with new images and names
   const teamMembers: TeamMemberProps[] = [
     {
-      name: "Alex Chen",
-      role: "Product Designer",
-      description: "A visionary designer with a passion for creating intuitive, user-centered experiences that bridge the gap between form and function.",
-      imageUrl: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "سجاد جهاد",
+      role: "مهندس برمجيات",
+      description: "مطور متمرس مع خبرة في تطوير تطبيقات الويب والموبايل، يتميز بالإبداع والدقة في العمل.",
+      imageUrl: "/lovable-uploads/44d39489-a54e-4a0b-89cc-53af0ae51305.png",
       socialLinks: [
         { type: 'github', url: 'https://github.com' },
         { type: 'twitter', url: 'https://twitter.com' },
@@ -19,70 +19,70 @@ const TeamGrid = () => {
       ]
     },
     {
-      name: "Maya Johnson",
-      role: "Lead Developer",
-      description: "Full-stack developer with expertise in building scalable applications. Passionate about clean code and innovative solutions.",
-      imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "مقتدى ناهض",
+      role: "مصمم واجهات المستخدم",
+      description: "مصمم مبدع يتميز بتصميم واجهات سهلة الاستخدام وجذابة بصرياً، مع خبرة في تجربة المستخدم.",
+      imageUrl: "/lovable-uploads/19a7147e-a5b6-402b-bb89-c747fc555d52.png",
       socialLinks: [
         { type: 'github', url: 'https://github.com' },
         { type: 'twitter', url: 'https://twitter.com' }
       ]
     },
     {
-      name: "David Kim",
-      role: "UX Researcher",
-      description: "Human-centered design advocate with a background in cognitive psychology. Dedicated to creating meaningful user experiences based on real insights.",
-      imageUrl: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "حسن عبد الكاظم",
+      role: "مطور واجهات أمامية",
+      description: "خبير في تطوير واجهات المستخدم باستخدام أحدث التقنيات، مع اهتمام كبير بتفاصيل الأداء والجودة.",
+      imageUrl: "/lovable-uploads/f88e9204-297f-4d93-a784-1238896d07b2.png",
       socialLinks: [
         { type: 'website', url: 'https://example.com' },
         { type: 'twitter', url: 'https://twitter.com' }
       ]
     },
     {
-      name: "Sarah Martinez",
-      role: "Creative Director",
-      description: "Award-winning creative director with 10+ years of experience. Expert in brand identity, visual design, and creative strategy.",
-      imageUrl: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "محمد توفيق",
+      role: "مطور الواجهات الخلفية",
+      description: "مهندس برمجيات متخصص في تطوير أنظمة الخلفية وقواعد البيانات، مع خبرة في بناء البنية التحتية للتطبيقات.",
+      imageUrl: "/lovable-uploads/44874d7d-2685-4e67-862d-7977ba56ef11.png",
       socialLinks: [
         { type: 'website', url: 'https://example.com' },
         { type: 'twitter', url: 'https://twitter.com' }
       ]
     },
     {
-      name: "James Wilson",
-      role: "Backend Engineer",
-      description: "Systems architect specializing in high-performance, scalable infrastructure. Passionate about optimization and elegant solutions to complex problems.",
-      imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "مقتدى محمد",
+      role: "مدير المشاريع",
+      description: "مدير مشاريع محترف يتميز بقدرته على قيادة الفرق وتنسيق العمل بين مختلف التخصصات لتحقيق أهداف المشروع.",
+      imageUrl: "/lovable-uploads/ed632593-f90d-4bb7-b48b-a9e479488a37.png",
       socialLinks: [
         { type: 'github', url: 'https://github.com' },
         { type: 'website', url: 'https://example.com' }
       ]
     },
     {
-      name: "Aisha Patel",
-      role: "Frontend Developer",
-      description: "Crafting beautiful, responsive interfaces with a focus on accessibility and performance. Dedicated to creating web experiences that delight users.",
-      imageUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "مؤمل حمزه",
+      role: "مصمم غرافيك",
+      description: "مصمم غرافيك موهوب مع خبرة في تصميم الهويات البصرية والمواد التسويقية والرسومات التوضيحية.",
+      imageUrl: "/lovable-uploads/9507a1eb-8b04-4b07-8cd5-fc4f3de85506.png",
       socialLinks: [
         { type: 'github', url: 'https://github.com' },
         { type: 'twitter', url: 'https://twitter.com' }
       ]
     },
     {
-      name: "Michael Thompson",
-      role: "Marketing Strategist",
-      description: "Data-driven marketer with a background in psychology. Specializes in growth strategies, brand positioning, and market analysis.",
-      imageUrl: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "حسين طه",
+      role: "مختص تسويق رقمي",
+      description: "خبير في التسويق الرقمي والتحليلات، مع مهارات في وسائل التواصل الاجتماعي واستراتيجيات النمو.",
+      imageUrl: "/lovable-uploads/cbfc6b60-a183-472b-abb7-882588d7fe9a.png",
       socialLinks: [
         { type: 'twitter', url: 'https://twitter.com' },
         { type: 'website', url: 'https://example.com' }
       ]
     },
     {
-      name: "Emily Nakamura",
-      role: "Content Strategist",
-      description: "Storyteller and content expert with a knack for translating complex ideas into compelling narratives. Passionate about voice, tone, and effective communication.",
-      imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      name: "سجاد وليد",
+      role: "مختص تجربة المستخدم",
+      description: "باحث ومصمم تجربة مستخدم مع تركيز على فهم احتياجات المستخدمين وتحسين التفاعل مع المنتج.",
+      imageUrl: "/lovable-uploads/a22c9dd3-e3fe-4336-bf69-393f064db01e.png",
       socialLinks: [
         { type: 'twitter', url: 'https://twitter.com' },
         { type: 'website', url: 'https://example.com' }
@@ -114,10 +114,10 @@ const TeamGrid = () => {
     <section id="team" ref={sectionRef} className="py-24 px-4 bg-neutral-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 fade-in-section">
-          <h2 className="text-4xl font-semibold mb-4 text-balance">Our Exceptional Team</h2>
+          <h2 className="text-4xl font-semibold mb-4 text-balance">فريقنا المتميز</h2>
           <p className="text-neutral-600 max-w-2xl mx-auto text-balance">
-            Meet the talented individuals who bring their unique skills and perspectives to our collective.
-            Together, we're pushing boundaries and creating remarkable experiences.
+            تعرف على الأفراد الموهوبين الذين يجلبون مهاراتهم ووجهات نظرهم الفريدة إلى مجموعتنا.
+            معًا، نتجاوز الحدود ونخلق تجارب رائعة.
           </p>
         </div>
         
