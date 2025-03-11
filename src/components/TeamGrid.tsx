@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import TeamMember, { TeamMemberProps } from './TeamMember';
 
@@ -13,7 +12,7 @@ const TeamGrid = () => {
       description: "مهندس طكة عطية",
       imageUrl: "/lovable-uploads/44d39489-a54e-4a0b-89cc-53af0ae51305.png",
       socialLinks: [
-        { type: 'instagram', url: 'https://www.instagram.com/' }
+        { type: 'instagram', url: 'https://www.instagram.com/_ddl5/' }
       ]
     },
     {
