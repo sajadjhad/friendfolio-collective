@@ -55,14 +55,13 @@ const Hero = () => {
           ref={headingRef}
           className="transition-all duration-700 ease-out text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight mb-6 text-balance"
         >
-          Meet the team behind 
-          <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-neutral-800 to-neutral-500">excellence & innovation</span>
+          Team leave it to God
         </h1>
         <p 
           ref={subHeadingRef}
           className="transition-all duration-700 ease-out text-lg md:text-xl max-w-2xl mx-auto mb-8 text-neutral-600 text-balance"
         >
-          A collective of passionate professionals bringing their unique perspectives and expertise to create something extraordinary.
+          فريق من المحترفين المتحمسين يجلبون وجهات نظرهم الفريدة وخبراتهم لإنشاء شيء استثنائي.
         </p>
         <div 
           ref={buttonRef}
@@ -72,14 +71,14 @@ const Hero = () => {
             href="#team" 
             className="inline-flex items-center px-6 py-3 text-sm font-medium rounded-full bg-black text-white hover:bg-black/90 transition-all transform hover:scale-105 duration-300"
           >
-            Meet our team
+            تعرف على فريقنا
           </a>
         </div>
       </div>
       
       {/* Scroll indicator */}
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-        <span className="text-sm text-neutral-500 mb-2">Scroll to explore</span>
+        <span className="text-sm text-neutral-500 mb-2">اسحب للأسفل للاستكشاف</span>
         <div className="w-5 h-10 border-2 border-neutral-300 rounded-full flex justify-center p-1">
           <div className="w-1 h-2 bg-neutral-400 rounded-full animate-bounce"></div>
         </div>

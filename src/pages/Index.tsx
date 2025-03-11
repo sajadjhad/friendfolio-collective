@@ -52,45 +52,6 @@ const Index = () => {
       <Navbar />
       <Hero />
       <TeamGrid />
-      
-      {/* About Section */}
-      <section id="about" className="py-24 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="fade-in-section">
-              <h2 className="text-4xl font-semibold mb-6 text-balance">فلسفة التعاون لدينا</h2>
-              <p className="text-neutral-600 mb-6 text-balance">
-                نؤمن بقوة وجهات النظر المتنوعة والتعاون المفتوح والابتكار المستمر. يجمع فريقنا خبراء من مختلف التخصصات، يوحدهم رؤية مشتركة لإحداث تأثير هادف من خلال عملنا.
-              </p>
-              <p className="text-neutral-600 mb-6 text-balance">
-                يساهم كل عضو في مجموعتنا بمواهبه وخبراته الفريدة، مما يمكننا من معالجة التحديات المعقدة بإبداع ودقة. معًا، نبني حلولًا مدروسة وتطلعية ومتمحورة حول الإنسان.
-              </p>
-            </div>
-            
-            <div className="fade-in-section relative aspect-video overflow-hidden rounded-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
-                alt="فريق العمل" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Quote Section */}
-      <section className="py-24 px-4 bg-neutral-900 text-white">
-        <div className="max-w-4xl mx-auto text-center fade-in-section">
-          <svg className="w-12 h-12 mx-auto mb-6 text-neutral-500" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-          </svg>
-          <p className="text-2xl md:text-3xl font-light mb-8 text-balance leading-relaxed">
-            التصميم ليس مجرد مظهر وملمس. التصميم هو كيفية العمل.
-          </p>
-          <cite className="text-neutral-400 not-italic">— ستيف جوبز</cite>
-        </div>
-      </section>
-      
       <Footer />
     </div>
   );

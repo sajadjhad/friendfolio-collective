@@ -30,17 +30,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="text-xl font-semibold tracking-tight">
-          فريقنا
+          Team leave it to God
         </a>
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#team" className="text-sm tracking-wide hover:text-black/70 transition-colors me-8">
             الفريق
-          </a>
-          <a href="#about" className="text-sm tracking-wide hover:text-black/70 transition-colors me-8">
-            عن الفريق
-          </a>
-          <a href="#contact" className="text-sm tracking-wide hover:text-black/70 transition-colors">
-            اتصل بنا
           </a>
         </nav>
       </div>
